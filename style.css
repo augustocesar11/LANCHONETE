@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(https://images.adsttc.com/media/images/5f49/d771/b357/655c/fa00/0041/large_jpg/FEATURE.jpg?1598674748);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    height: 100%;
+    border: solid 5px black;
+}
+.barra{
+    width: 100%;
+    height: 5px;
+    background-color: black;
+}
+.item{
+    height: 40%;
+    display: flex;
+    align-items: center;
+    
+}
+.itens{
+    gap: 10px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+ol {
+    text-align: center;
+    list-style-position: inside;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 20px;
+}
+li{
+    border: solid 2px black;
+    border-radius: 5px;
+}
+.imgl{
+    height: 50px;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 20px 0;
+}
+
+h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    outline: none;
+    transition: border 0.3s ease;
+}
+
+input[type="number"]:focus {
+    border-color: #ff5722;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff5722;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e64a19;
+}
+
+#texto {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 500px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 50px;
+    background-color: #ff5722;
+    border-radius: 5px;
+    margin-left: 21%;
+}

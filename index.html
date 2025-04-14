@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Menu do Lanches Augusto</h1>
+        <hr class="barra">
+        <div class="item">
+            <ol>
+                <div class="itens">
+                    <div class="img">
+                        <li>X - Calabresa - R$ 18,00</li>
+                        <img class="imgl" src="https://catracalivre.com.br/wp-content/uploads/2014/02/ham.jpg" alt="">
+                    </div>
+                    <div class="img">
+                        <li>X - Salaminho - R$ 15,00</li>
+                        <img class="imgl" src="https://catracalivre.com.br/wp-content/uploads/2014/02/ham.jpg" alt="">
+                    </div> 
+                    <div class="img">
+                        <li>X - Tomate - R$ 17,00</li>
+                        <img class="imgl" src="https://catracalivre.com.br/wp-content/uploads/2014/02/ham.jpg" alt="">
+                    </div>
+                    <div class="img">
+                        <li>X - Bacon com Salada - R$ 22,00</li>
+                        <img class="imgl" src="https://catracalivre.com.br/wp-content/uploads/2014/02/ham.jpg" alt="">
+                    </div>
+                </div>
+                <div class="itens">
+                    <div class="img">
+                        <li>X - 4 Queijos - R$ 25,00</li>
+                        <img class="imgl" src="https://catracalivre.com.br/wp-content/uploads/2014/02/ham.jpg" alt="">
+                    </div>
+                    <div class="img">
+                        <li>X - Bacon - R$ 20,00</li>
+                        <img class="imgl" src="https://catracalivre.com.br/wp-content/uploads/2014/02/ham.jpg" alt="">
+                    </div>
+                    <div class="img">
+                        <li>X - Aridesiri - R$ 27,00</li>
+                        <img class="imgl" src="https://catracalivre.com.br/wp-content/uploads/2014/02/ham.jpg" alt="">
+                    </div>
+                    <div class="img">
+                        <li>X - GabrielJosé - R$ 28,00</li> 
+                        <img class="imgl" src="https://catracalivre.com.br/wp-content/uploads/2014/02/ham.jpg" alt="">  
+                    </div>
+                </div>
+            </ol>
+        </div>
+        <hr class="barra">
+        <h2>Digite o código do lanche</h2>
+        <input type="number" id="codigo">
+        <h2>Digite a quantidade de lanches</h2>
+        <input type="number" id="quantidade">
+        <hr class="barra">
+        <button onclick="calcular()">Finalizar Pedido</button>
+        <hr class="barra">
+        <h2>Total da compra</h2>
+        <h2 id="texto"></h2>
+    </div>
+
+    <script src="lanchonete.js"></script>
+</body>
+</html>
